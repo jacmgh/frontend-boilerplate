@@ -1,0 +1,23 @@
+body {
+    background: #fff;
+    color: $color-text;
+    font-size: 1.8rem;
+    font-family: $font-family-primary;
+    @include screen-lg {
+        font-size: 1.6rem;
+    }
+}
+
+a {
+    color: $color-link;
+    transition: $transition-duration;
+
+    &:hover,
+    &:focus {
+        color: $color-link-hover;
+    }
+}
+
+img {
+    max-width: 100%;
+}
